@@ -15,10 +15,7 @@ public class ProductsREST {
 	
 	@GetMapping
 	public ResponseEntity<List<Product>> getProduct(){
-		Product product = new Product();
-		product.setId(1L);
-		product.setName("Producto 1");
-		return ResponseEntity.ok(product);
+		return null;
 	}
 		 
 	
