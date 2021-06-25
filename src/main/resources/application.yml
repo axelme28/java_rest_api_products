@@ -1,4 +1,5 @@
-
+server:
+  port: 8080
 
 spring:
   jpa:
@@ -11,4 +12,5 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/productos?zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
     username: root
-    password: Grhzu92E
+    password: Axelmzma
+    
